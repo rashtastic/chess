@@ -3,6 +3,7 @@ board=[['BR','BKn','BB','BQ','BK','BB','BKn','BR'],['BP','BP','BP','BP','BP','BP
 
 record=['p1name','p2name']
 
+#change test for life
 def motion(board,move):
   x1,y1,x2,y2=move[1],move[2],move[3],move[4]
   color=move[0]
